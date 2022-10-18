@@ -1,2 +1,2 @@
 # SAPA-IIIF
-IIIF Resources for the Swiss Archive of the Performing Arts (SAPA)
+IIIF Resource Templates for the Swiss Archive of the Performing Arts (SAPA)

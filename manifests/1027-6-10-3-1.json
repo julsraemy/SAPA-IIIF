@@ -1,0 +1,221 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-3-1.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Kathleen A. Scarr"
+    ]
+  },
+  "summary": {
+    "en": [
+      "IIIF Manifest of Kathleen A. Scarr"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "1383232.tif"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Is Part Of"
+        ]
+      },
+      "value": {
+        "en": [
+          "1706-11-30_Verzaglia_Giuseppe-Bernoulli_Johann_I"
+        ]
+      }
+    },
+    {
+      "label": {
+        "de": [
+          "Recipient"
+        ]
+      },
+      "value": {
+        "de": [
+          "Johann I Bernoulli"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Author"
+        ]
+      },
+      "value": {
+        "en": [
+          "Verzaglia"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "30.11.1706"
+        ]
+      }
+    }
+  ],
+  "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Copyright"
+      ]
+    },
+    "value": {
+      "en": [
+        "Public Domain Mark 1.0 - No Known Copyright"
+      ]
+    }
+  },
+  "homepage": [
+    {
+      "id": "https://ark.dasch.swiss/ark:/72163/1/0801/qX28KUMYTHClv28ByujgeQ7.20191030T103445476Z",
+      "type": "Text",
+      "label": {
+        "en": [
+          "BEOL Homepage"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "http://data.performing-arts.ch/r/d1534a8c-f0b3-466a-9024-1d59f67a2e5b",
+      "type": "Text",
+      "label": {
+        "en": [
+          "Record of Kathleen A. Scarr"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "provider": [
+    {
+      "id": "https://d-nb.info/gnd/1150311754",
+      "type": "Agent",
+      "label": {
+        "en": [
+          "SAPA, Swiss Archive of the Performing Arts"
+        ],
+        "de": [
+          "Stiftung SAPA, Schweizer Archiv der Darstellenden Künste"
+        ],
+        "fr": [
+          "Fondation SAPA, Archives suisses des arts de la scène"
+        ],
+        "it": [
+          "Fondazione SAPA, Archivio svizzero delle arti della scena"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://sapa.swiss/",
+          "type": "Text",
+          "label": {
+            "en": [
+              "The SAPA Foundation, Swiss Archive of the Performing Arts, collects documents and objects of importance to the history of the performing arts and makes them accessible to a wider audience."
+            ],
+            "de": [
+              "Die Stiftung SAPA, Schweizer Archiv der Darstellenden Künste, sammelt Dokumente und Objekte, die für die Geschichte der Darstellenden Künste bedeutsam sind, und stellt diese einem breiten Publikum zur Verfügung."
+            ],
+            "fr": [
+              "La Fondation SAPA, Archives suisses des arts de la scène, collecte et met à disposition de tous les publics les documents et objets constituant l‘histoire des arts de la scène en Suisse. Sa mission: préserver les traces de ces arts éphémères et complexes pour les transmettre aux générations futures."
+            ],
+            "it": [
+              "SAPA raccoglie e mette a disposizione del pubblico documenti e oggetti di rilevanza storica per le arti sceniche in Svizzera. La Fondazione si pone l’obiettivo di preservare le tracce di queste arti effimere e complesse per tramandarle alle generazioni future."
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://memobase.ch/sites/default/files/2021-05/sap-logo.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 100,
+          "width": 260
+        }
+      ]
+    }
+  ], 
+      "thumbnail": [
+        {
+          "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-3-1/full/80,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "service": [
+            {
+              "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-3-1",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ]
+        }
+      ],
+  "viewingDirection": "left-to-right",
+  "navDate": "1706-11-30T00:00:00+00:00",
+  "items": [
+    {
+      "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-3-1/canvas/p1",
+      "type": "Canvas",
+      "label": {
+      "none": [
+        "1383232"
+      ]
+    },
+      "height": 850,
+      "width": 654,
+      "items": [
+        {
+          "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-3-1/canvas/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-3-1/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-3-1/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 850,
+                "width": 654,
+                "service": [
+                  {
+                    "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-3-1/",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-3-1/canvas/p1/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

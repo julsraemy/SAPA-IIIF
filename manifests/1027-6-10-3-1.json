@@ -4,12 +4,21 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "Kathleen A. Scarr"
+      "Portrait of Kathleen A. Scarr"
+    ],
+    "de": [
+      "Portrait von Kathleen A. Scarr"
+    ],
+    "fr": [
+      "Portrait de Kathleen A. Scarr"
+    ],
+    "it":[
+      "Ritratto fotografico di Kathleen A. Scarr"
     ]
   },
   "summary": {
     "en": [
-      "IIIF Manifest of Kathleen A. Scarr"
+      "IIIF Manifest of the portrait of Kathleen A. Scarr"
     ]
   },
   "metadata": [
@@ -17,10 +26,28 @@
       "label": {
         "en": [
           "Name"
+        ],
+        "de":[
+          "Name"
+        ],
+        "fr":[
+          "Nom"
+        ],
+        "it":[
+          "Nome"
         ]
       },
       "value": {
         "en": [
+          "Kathleen A. Scarr"
+        ],
+        "de":[
+          "Kathleen A. Scarr"
+        ],
+        "fr":[
+          "Kathleen A. Scarr"
+        ],
+        "it":[
           "Kathleen A. Scarr"
         ]
       }
@@ -28,12 +55,30 @@
     {
       "label": {
         "en": [
-          "Type of print"
+          "Archival Master"
+        ],
+        "de":[
+          "Archivmaster"
+        ],
+        "fr":[
+          "Master Archive"
+        ],
+        "it":[
+          "Master Archivio"
         ]
       },
       "value": {
         "en": [
-          "vintage print"
+          "Photographic print on paper. Photo positive"
+        ],
+        "de":[
+          "Papierabzug. Fotopositiv"
+        ],
+        "fr":[
+          "Epreuve sur papier. Positif"
+        ],
+        "it":[
+          "Stampa su carta. Positivo (foto)"
         ]
       }
     },
@@ -41,10 +86,28 @@
       "label": {
         "en": [
           "Fonds"
+        ],
+        "de":[
+          "Bestand"
+        ],
+        "fr":[
+          "Fonds"
+        ],
+        "it":[
+          "Fondo"
         ]
       },
       "value": {
         "en": [
+          "Leeder, Sigurd"
+        ],
+        "de":[
+          "Leeder, Sigurd"
+        ],
+        "fr":[
+          "Leeder, Sigurd"
+        ],
+        "it":[
           "Leeder, Sigurd"
         ]
       }
@@ -52,23 +115,29 @@
     {
       "label": {
         "en": [
-          "Author"
-        ]
-      },
-      "value": {
-        "en": [
-          "Verzaglia"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
           "Identifier"
+        ],
+        "de":[
+          "Signatur"
+        ],
+        "fr":[
+          "Cote"
+        ],
+        "it":[
+          "Segnatura"
         ]
       },
       "value": {
         "en": [
+          "1027-6-10-3-1"
+        ],
+        "de":[
+          "1027-6-10-3-1"
+        ],
+        "fr":[
+          "1027-6-10-3-1"
+        ],
+        "it":[
           "1027-6-10-3-1"
         ]
       }

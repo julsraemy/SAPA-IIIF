@@ -16,36 +16,36 @@
     {
       "label": {
         "en": [
-          "Title"
+          "Name"
         ]
       },
       "value": {
         "en": [
-          "1383232.tif"
+          "Kathleen A. Scarr"
         ]
       }
     },
     {
       "label": {
         "en": [
-          "Is Part Of"
+          "Type of print"
         ]
       },
       "value": {
         "en": [
-          "1706-11-30_Verzaglia_Giuseppe-Bernoulli_Johann_I"
+          "vintage print"
         ]
       }
     },
     {
       "label": {
-        "de": [
-          "Recipient"
+        "en": [
+          "Fonds"
         ]
       },
       "value": {
-        "de": [
-          "Johann I Bernoulli"
+        "en": [
+          "Leeder, Sigurd"
         ]
       }
     },
@@ -64,17 +64,16 @@
     {
       "label": {
         "en": [
-          "Date"
+          "Identifier"
         ]
       },
       "value": {
         "en": [
-          "30.11.1706"
+          "1027-6-10-3-1"
         ]
       }
     }
   ],
-  "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
   "requiredStatement": {
     "label": {
       "en": [
@@ -83,17 +82,17 @@
     },
     "value": {
       "en": [
-        "Public Domain Mark 1.0 - No Known Copyright"
+        "All rights reserved"
       ]
     }
   },
   "homepage": [
     {
-      "id": "https://ark.dasch.swiss/ark:/72163/1/0801/qX28KUMYTHClv28ByujgeQ7.20191030T103445476Z",
+      "id": "https://sapa.swiss/example",
       "type": "Text",
       "label": {
         "en": [
-          "BEOL Homepage"
+          "Example SAPA Homepage"
         ]
       },
       "format": "text/html"
@@ -105,7 +104,7 @@
       "type": "Text",
       "label": {
         "en": [
-          "Record of Kathleen A. Scarr"
+          "Record of Kathleen A. Scarr on Metaphacts"
         ]
       },
       "format": "text/html"
@@ -176,14 +175,13 @@
         }
       ],
   "viewingDirection": "left-to-right",
-  "navDate": "1706-11-30T00:00:00+00:00",
   "items": [
     {
       "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-3-1/canvas/p1",
       "type": "Canvas",
       "label": {
       "none": [
-        "1383232"
+        "1027-6-10-3-1"
       ]
     },
       "height": 850,

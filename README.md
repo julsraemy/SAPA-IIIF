@@ -42,4 +42,4 @@ Based on the [IIIF Change Discovery  API endpoint from the Bodleian Libraries](h
 - the subsequent pages pointing to each of the IIIF Manifests which are all `Create` activities and can be found in this [directory](activity/create/).
 
 
-[^1] `rights` are for the moment missing, what most IIIF-compliant resource have are pointers to Creative Commons link.
+[^1]: `rights` are for the moment missing, what most IIIF-compliant resource have are pointers to Creative Commons link.

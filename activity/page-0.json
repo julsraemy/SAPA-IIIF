@@ -1,0 +1,58 @@
+{
+    "@context": "http://iiif.io/api/discovery/1/context.json",
+    "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/activity/page-0.json",
+    "type": "OrderedCollectionPage",
+    "startIndex": 1,
+    "partOf": {
+      "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/activity/all-changes.json",
+      "type": "OrderedCollection"
+    },
+    "next": {
+      "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/activity/page-1.json",
+      "type": "OrderedCollectionPage"
+    },
+    "orderedItems": [
+      {
+        "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/activity/create/1027-6-10-3-1.json",
+        "type": "Create",
+        "endTime": "2022-11-18T12:00:00Z",
+        "object": {
+          "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-3-1.json",
+          "type": "Manifest",
+          "name": "Portrait of Kathleen A. Scarr"
+        },
+        "actor": {
+          "id": "https://d-nb.info/gnd/1150311754",
+          "type": "Organization"
+        }
+      },
+      {
+        "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/activity/create/1027-6-10-8-2.json",
+        "type": "Create",
+        "endTime": "2022-11-18T12:00:00Z",
+        "object": {
+          "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-8-2.json",
+          "type": "Manifest",
+          "name": "Portrait of Manuel Miranda"
+        },
+        "actor": {
+          "id": "https://d-nb.info/gnd/1150311754",
+          "type": "Organization"
+        }
+      },
+      {
+        "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/activity/create/1027-6-10-25-2.json",
+        "type": "Create",
+        "endTime": "2022-11-18T12:00:00Z",
+        "object": {
+          "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2.json",
+          "type": "Manifest",
+          "name": "Portrait of Jan Veen"
+        },
+        "actor": {
+          "id": "https://d-nb.info/gnd/1150311754",
+          "type": "Organization"
+        }
+      }
+    ]
+}

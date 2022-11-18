@@ -1,0 +1,319 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2.json",
+    "type": "Manifest",
+    "label": {
+      "en": [
+        "Portrait of Jan Veen"
+      ],
+      "de": [
+        "Portrait von Jan Veen"
+      ],
+      "fr": [
+        "Portrait de Jan Veen"
+      ],
+      "it":[
+        "Ritratto fotografico di Jan Veen"
+      ]
+    },
+    "summary": {
+      "en": [
+        "IIIF Manifest of the portrait of Jan Veen"
+      ]
+    },
+    "metadata": [
+      {
+        "label": {
+          "en": [
+            "Name"
+          ],
+          "de":[
+            "Name"
+          ],
+          "fr":[
+            "Nom"
+          ],
+          "it":[
+            "Nome"
+          ]
+        },
+        "value": {
+          "en": [
+            "Jan Veen"
+          ],
+          "de":[
+            "Jan Veen"
+          ],
+          "fr":[
+            "Jan Veen"
+          ],
+          "it":[
+            "Jan Veen"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Creator"
+          ],
+          "de":[
+            "Urheber"
+          ],
+          "fr":[
+            "Auteur"
+          ],
+          "it":[
+            "Autore"
+          ]
+        },
+        "value": {
+          "en": [
+            "John Lindquist"
+          ],
+          "de":[
+            "John Lindquist"
+          ],
+          "fr":[
+            "John Lindquist"
+          ],
+          "it":[
+            "John Lindquist"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Archival Master"
+          ],
+          "de":[
+            "Archivmaster"
+          ],
+          "fr":[
+            "Master Archive"
+          ],
+          "it":[
+            "Master Archivio"
+          ]
+        },
+        "value": {
+          "en": [
+            "Photographic print on paper. Photo positive"
+          ],
+          "de":[
+            "Papierabzug. Fotopositiv"
+          ],
+          "fr":[
+            "Epreuve sur papier. Positif"
+          ],
+          "it":[
+            "Stampa su carta. Positivo (foto)"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Fonds"
+          ],
+          "de":[
+            "Bestand"
+          ],
+          "fr":[
+            "Fonds"
+          ],
+          "it":[
+            "Fondo"
+          ]
+        },
+        "value": {
+          "en": [
+            "Leeder, Sigurd"
+          ],
+          "de":[
+            "Leeder, Sigurd"
+          ],
+          "fr":[
+            "Leeder, Sigurd"
+          ],
+          "it":[
+            "Leeder, Sigurd"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Identifier"
+          ],
+          "de":[
+            "Signatur"
+          ],
+          "fr":[
+            "Cote"
+          ],
+          "it":[
+            "Segnatura"
+          ]
+        },
+        "value": {
+          "en": [
+            "1027-6-10-25-2"
+          ],
+          "de":[
+            "1027-6-10-25-2"
+          ],
+          "fr":[
+            "1027-6-10-25-2"
+          ],
+          "it":[
+            "1027-6-10-25-2"
+          ]
+        }
+      }
+    ],
+    "requiredStatement": {
+      "label": {
+        "en": [
+          "Copyright"
+        ]
+      },
+      "value": {
+        "en": [
+          "All rights reserved"
+        ]
+      }
+    },
+    "homepage": [
+      {
+        "id": "https://sapa.swiss/example",
+        "type": "Text",
+        "label": {
+          "en": [
+            "Example SAPA Homepage"
+          ]
+        },
+        "format": "text/html"
+      }
+    ],
+    "seeAlso": [
+      {
+        "id": "http://data.performing-arts.ch/r/70001858-59c9-4d0b-b459-d6e9c88de01d",
+        "type": "Text",
+        "label": {
+          "en": [
+            "Record of Jan Veen on Metaphacts"
+          ]
+        },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://d-nb.info/gnd/1150311754",
+        "type": "Agent",
+        "label": {
+          "en": [
+            "SAPA, Swiss Archive of the Performing Arts"
+          ],
+          "de": [
+            "Stiftung SAPA, Schweizer Archiv der Darstellenden Künste"
+          ],
+          "fr": [
+            "Fondation SAPA, Archives suisses des arts de la scène"
+          ],
+          "it": [
+            "Fondazione SAPA, Archivio svizzero delle arti della scena"
+          ]
+        },
+        "homepage": [
+          {
+            "id": "https://sapa.swiss/",
+            "type": "Text",
+            "label": {
+              "en": [
+                "The SAPA Foundation, Swiss Archive of the Performing Arts, collects documents and objects of importance to the history of the performing arts and makes them accessible to a wider audience."
+              ],
+              "de": [
+                "Die Stiftung SAPA, Schweizer Archiv der Darstellenden Künste, sammelt Dokumente und Objekte, die für die Geschichte der Darstellenden Künste bedeutsam sind, und stellt diese einem breiten Publikum zur Verfügung."
+              ],
+              "fr": [
+                "La Fondation SAPA, Archives suisses des arts de la scène, collecte et met à disposition de tous les publics les documents et objets constituant l‘histoire des arts de la scène en Suisse. Sa mission: préserver les traces de ces arts éphémères et complexes pour les transmettre aux générations futures."
+              ],
+              "it": [
+                "SAPA raccoglie e mette a disposizione del pubblico documenti e oggetti di rilevanza storica per le arti sceniche in Svizzera. La Fondazione si pone l’obiettivo di preservare le tracce di queste arti effimere e complesse per tramandarle alle generazioni future."
+              ]
+            },
+            "format": "text/html"
+          }
+        ],
+        "logo": [
+          {
+            "id": "https://memobase.ch/sites/default/files/2021-05/sap-logo.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 100,
+            "width": 260
+          }
+        ]
+      }
+    ], 
+        "thumbnail": [
+          {
+            "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-25-2/full/80,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "service": [
+              {
+                "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-25-2",
+                "type": "ImageService3",
+                "profile": "level2"
+              }
+            ]
+          }
+        ],
+    "viewingDirection": "left-to-right",
+    "items": [
+      {
+        "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2/canvas/p1",
+        "type": "Canvas",
+        "label": {
+        "none": [
+          "1027-6-10-25-2"
+        ]
+      },
+        "height": 850,
+        "width": 799,
+        "items": [
+          {
+            "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2/canvas/p1/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2/p0001-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-25-2/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 850,
+                  "width": 799,
+                  "service": [
+                    {
+                      "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-25-2/",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ]
+                },
+                "target": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2/canvas/p1/1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

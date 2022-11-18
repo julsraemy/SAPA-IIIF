@@ -55,6 +55,36 @@
     {
       "label": {
         "en": [
+          "Creator"
+        ],
+        "de":[
+          "Urheber"
+        ],
+        "fr":[
+          "Auteur"
+        ],
+        "it":[
+          "Autore"
+        ]
+      },
+      "value": {
+        "en": [
+          "[Unknown]"
+        ],
+        "de":[
+          "[unbekannt]"
+        ],
+        "fr":[
+          "[inconnu]"
+        ],
+        "it":[
+          "[incognito]"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
           "Archival Master"
         ],
         "de":[

@@ -19,20 +19,20 @@ The templates have been created on the basis of the following portraits, all ava
 
 ### Manifest
 
-1. Metadata about the IIIF resource (`context`, `id`, `type`)
+1. Metadata about the IIIF resource (`context`, `id`, `type`, `label`)
 2. Summary (`summary`)
 3. Descriptive Metadata about the object
 4. Rights Information (`rights`, `requiredStatement`)[^1]
-5. Related links (`logo`,`homepage`, `seeAlso`, `provider`, `rendering`, `start`)
-6. Presentation information (`viewing Direction`, `navDate`, `thumbnail`)
-7. List of Canvases (`items` + `id`, `type`, `label`)
+5. Related links (`logo`,`homepage`, `seeAlso`, `provider`)
+6. Presentation information (`viewing Direction`, `thumbnail`)
+7. List of Canvases (`items`, `id`, `type`, `label`), mostly pointing to a IIIF Image API service
 
 ### Collection
 
-1. Metadata about the IIIF resource (`context`, `id`, `type`)
+1. Metadata about the IIIF resource (`context`, `id`, `type`, `label`)
 2. Summary (`summary`)
 3. Related links (`logo`, `provider`)
-4. List of Manifests/Collections (`items` + `id`, `type`, `label` for each resource)
+4. List of Manifests/Collections (`items`, `id`, `type`, `label` for each resource)
 
 ### Activity Streams
 

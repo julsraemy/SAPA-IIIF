@@ -1,0 +1,82 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/collections/portraits.json",
+    "type": "Collection",
+    "label": {
+      "en": [
+        "IIIF Collection of Portraits (Leeder, Sigurd)"
+      ]
+    },
+    "summary": {
+      "en": [
+        "SAPA IIIF Collection Template"
+      ]
+    },
+    "items": [
+      {
+        "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-3-1.json",
+        "type": "Manifest",
+        "label": "Portrait of Kathleen A. Scarr"
+      },
+      {
+        "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-8-2.json",
+        "type": "Manifest",
+        "label": "Portrait of Manuel Miranda"
+      },
+      {
+        "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2.json",
+        "type": "Manifest",
+        "label": "Portrait of Jan Veen"
+      }
+    ],
+    "provider": [
+        {
+          "id": "https://d-nb.info/gnd/1150311754",
+          "type": "Agent",
+          "label": {
+            "en": [
+              "SAPA, Swiss Archive of the Performing Arts"
+            ],
+            "de": [
+              "Stiftung SAPA, Schweizer Archiv der Darstellenden Künste"
+            ],
+            "fr": [
+              "Fondation SAPA, Archives suisses des arts de la scène"
+            ],
+            "it": [
+              "Fondazione SAPA, Archivio svizzero delle arti della scena"
+            ]
+          },
+          "homepage": [
+            {
+              "id": "https://sapa.swiss/",
+              "type": "Text",
+              "label": {
+                "en": [
+                  "The SAPA Foundation, Swiss Archive of the Performing Arts, collects documents and objects of importance to the history of the performing arts and makes them accessible to a wider audience."
+                ],
+                "de": [
+                  "Die Stiftung SAPA, Schweizer Archiv der Darstellenden Künste, sammelt Dokumente und Objekte, die für die Geschichte der Darstellenden Künste bedeutsam sind, und stellt diese einem breiten Publikum zur Verfügung."
+                ],
+                "fr": [
+                  "La Fondation SAPA, Archives suisses des arts de la scène, collecte et met à disposition de tous les publics les documents et objets constituant l‘histoire des arts de la scène en Suisse. Sa mission: préserver les traces de ces arts éphémères et complexes pour les transmettre aux générations futures."
+                ],
+                "it": [
+                  "SAPA raccoglie e mette a disposizione del pubblico documenti e oggetti di rilevanza storica per le arti sceniche in Svizzera. La Fondazione si pone l’obiettivo di preservare le tracce di queste arti effimere e complesse per tramandarle alle generazioni future."
+                ]
+              },
+              "format": "text/html"
+            }
+          ],
+          "logo": [
+            {
+              "id": "https://memobase.ch/sites/default/files/2021-05/sap-logo.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 100,
+              "width": 260
+            }
+          ]
+        }
+      ] 
+  }

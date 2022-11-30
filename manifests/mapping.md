@@ -120,6 +120,7 @@ Hereafter is a mapping description following the structure, i.e. in which order 
 | `requiredStatement`    |   A copyright statement, the name of the organization can be mentioned          |
 
 ```
+    "rights": "http://creativecommons.org/licenses/by-sa/4.0/",
     "requiredStatement": {
       "label": {
         "en": [

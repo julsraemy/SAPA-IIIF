@@ -22,7 +22,7 @@ The templates have been created on the basis of the following portraits, all ava
 1. Metadata about the IIIF resource (`context`, `id`, `type`, `label`)
 2. Summary (`summary`)
 3. Descriptive Metadata about the object
-4. Rights Information (`rights`, `requiredStatement`)[^1]
+4. Rights Information (`rights`, `requiredStatement`)
 5. Related links (`logo`,`homepage`, `seeAlso`, `provider`)
 6. Presentation information (`viewingDirection`, `thumbnail`)
 7. List of Canvases (`items`, `id`, `type`, `label`), mostly pointing to a IIIF Image API service
@@ -42,6 +42,3 @@ Based on the [IIIF Change Discovery  API endpoint from the Bodleian Libraries](h
 - an `OrderedCollection` ([all-changes](activity/all-changes.json))
 - a first `OrderedCollectionPage` ([page-0](activity/page-0.json))
 - the subsequent pages pointing to each of the IIIF Manifests which are all `Create` activities and can be found in this [directory](activity/create/).
-
-
-[^1]: `rights` are for the moment missing, what most IIIF-compliant resource have are pointers to Creative Commons link.

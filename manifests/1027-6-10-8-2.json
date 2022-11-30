@@ -173,6 +173,7 @@
         }
       }
     ],
+    "rights": "http://creativecommons.org/licenses/by-sa/4.0/",
     "requiredStatement": {
       "label": {
         "en": [
@@ -181,7 +182,7 @@
       },
       "value": {
         "en": [
-          "All rights reserved"
+          "All rights reserved to the SAPA Foundation"
         ]
       }
     },

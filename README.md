@@ -24,7 +24,7 @@ The templates have been created on the basis of the following portraits, all ava
 3. Descriptive Metadata about the object
 4. Rights Information (`rights`, `requiredStatement`)[^1]
 5. Related links (`logo`,`homepage`, `seeAlso`, `provider`)
-6. Presentation information (`viewing Direction`, `thumbnail`)
+6. Presentation information (`viewingDirection`, `thumbnail`)
 7. List of Canvases (`items`, `id`, `type`, `label`), mostly pointing to a IIIF Image API service
 
 Further mapping explanation is done [here](manifests/mapping.md).

@@ -5,7 +5,7 @@
 3. Descriptive Metadata about the object
 4. Rights Information (`rights`, `requiredStatement`)
 5. Related links (`logo`,`homepage`, `seeAlso`, `provider`)
-6. Presentation information (`viewing Direction`, `thumbnail`)
+6. Presentation information (`viewingDirection`, `thumbnail`)
 7. List of Canvases (`items`, `id`, `type`, `label`), mostly pointing to a IIIF Image API service
 
 ## Mapping Description
@@ -98,4 +98,65 @@ Here is a mapping description following the structure (in which order the proper
           ]
         }
       },
+```
+
+### Rights Information
+
+| **Property** | **Content** |
+|--------------|-------------|
+| `rights`    |      It can be either a string or a URI when the value is drawn from Creative Commons or RightsStatements.org     |
+| `requiredStatement`    |   A copyright statement, the name of the organization can be mentioned          |
+
+```
+    "requiredStatement": {
+      "label": {
+        "en": [
+          "Copyright"
+        ]
+      },
+      "value": {
+        "en": [
+          "All rights reserved to the SAPA Foundation"
+        ]
+      }
+    },
+```
+
+### Related links
+
+| **Property** | **Content** |
+|--------------|-------------|
+| `logo`       |             |
+| `homepage`   |             |
+| `seeAlso`    |             |
+| `provider`   |             |
+
+```
+
+```
+
+### Presentation information
+
+| **Property** | **Content** |
+|--------------|-------------|
+| `viewingDirection`        |             |
+| `thumbnail`               |             |
+
+```
+
+```
+
+### List of Canvases 
+
+_The `Canvas` represents an individual page or view and acts as a central point for assembling the different content resources that make up the display._
+
+| **Property** | **Content** |
+|--------------|-------------|
+| `items`      |             |
+| `id`         |             |
+| `type`       |             |
+| `label`      |             |
+
+```
+
 ```

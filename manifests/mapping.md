@@ -12,6 +12,13 @@
 
 ### Metadata about the IIIF resource
 
+| **Property** | **Content** |
+|--------------|-------------|
+| `@context`   |     It has to be  "http://iiif.io/api/presentation/3/context.json"       |
+| `id`         |             |
+| `type`       |             |
+| `label`      |             |
+
 ```
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2.json",

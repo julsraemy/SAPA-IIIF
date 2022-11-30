@@ -139,10 +139,10 @@ Hereafter is a mapping description following the structure, i.e. in which order 
 
 | **Property** | **Content** |
 |--------------|-------------|
-| `logo`       |             |
-| `homepage`   |             |
-| `seeAlso`    |             |
-| `provider`   |             |
+| `logo`       |       link to the logo of the organization, can also point to a IIIF Image API service, must be put at the provider level (unfortunately, it isn't yet displayed on Mirador due to a bug - cf. https://github.com/IIIF-Commons/manifesto/pull/111/files )      |
+| `homepage`   |   On the Manifest level, homepage of the object, on the provider level, homepage of the organization/person reponsible for this object          |
+| `seeAlso`    |     Pointers to structured metadata, could be used for aggregation purposes        |
+| `provider`   |      information about the organization, could be used for aggregation purposes       |
 
 ```
     "homepage": [
@@ -225,8 +225,8 @@ Hereafter is a mapping description following the structure, i.e. in which order 
 
 | **Property** | **Content** |
 |--------------|-------------|
-| `viewingDirection`        |             |
-| `thumbnail`               |             |
+| `viewingDirection`        |    this property is not mandatory but it should be included, by default viewers should displayed objects [from left to right](https://iiif.io/api/presentation/3.0/#viewingdirection).        |
+| `thumbnail`               |        it is usually the content that is painted onto the first Canvas, a IIIF Image API can be leveraged through the `service` pattern   |
 
 ```
         "thumbnail": [
@@ -252,10 +252,14 @@ _The `Canvas` represents an individual page or view and acts as a central point 
 
 | **Property** | **Content** |
 |--------------|-------------|
-| `items`      |             |
-| `id`         |             |
-| `type`       |             |
-| `label`      |             |
+| `items`      |       a list of all Canvases      |
+| `id`         |      URIs of each Canvas, they are usually not dereferenced but they must be unique.       |
+| `type`       |        `"Canvas"`     |
+| `label`      |       label of the Canvas, can be the identifier or just an incremental number (page, folio)      |
+
+What needs to be specified then: 
+- Area of the Canvas in terms of `height`and `width` and/or `duration`. Usually, they have the same pixel values as the images and/or the duration of the audio file in seconds.
+- For images, the format and a related IIIF Image Service
 
 ```
     "items": [

@@ -228,7 +228,21 @@ Hereafter is a mapping description following the structure, i.e. in which order 
 | `thumbnail`               |             |
 
 ```
-
+        "thumbnail": [
+          {
+            "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-25-2/full/80,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "service": [
+              {
+                "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-25-2",
+                "type": "ImageService3",
+                "profile": "level2"
+              }
+            ]
+          }
+        ],
+    "viewingDirection": "left-to-right",
 ```
 
 ### List of Canvases 
@@ -243,5 +257,46 @@ _The `Canvas` represents an individual page or view and acts as a central point 
 | `label`      |             |
 
 ```
-
+    "items": [
+      {
+        "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2/canvas/p1",
+        "type": "Canvas",
+        "label": {
+        "none": [
+          "1027-6-10-25-2"
+        ]
+      },
+        "height": 850,
+        "width": 799,
+        "items": [
+          {
+            "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2/canvas/p1/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2/p0001-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-25-2/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 850,
+                  "width": 799,
+                  "service": [
+                    {
+                      "id": "https://media.performing-arts.ch/iiif/3/image%2F1027-6-10-25-2/",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ]
+                },
+                "target": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1027-6-10-25-2/canvas/p1/1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ```

@@ -27,6 +27,8 @@ The templates have been created on the basis of the following portraits, all ava
 6. Presentation information (`viewing Direction`, `thumbnail`)
 7. List of Canvases (`items`, `id`, `type`, `label`), mostly pointing to a IIIF Image API service
 
+Further mapping explanation is done [here](manifests/mapping.md).
+
 ### Collection
 
 1. Metadata about the IIIF resource (`context`, `id`, `type`, `label`)

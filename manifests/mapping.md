@@ -3,12 +3,19 @@
 1. Metadata about the IIIF resource (`context`, `id`, `type`, `label`)
 2. Summary (`summary`)
 3. Descriptive Metadata about the object
-4. Rights Information (`rights`, `requiredStatement`)[^1]
+4. Rights Information (`rights`, `requiredStatement`)
 5. Related links (`logo`,`homepage`, `seeAlso`, `provider`)
 6. Presentation information (`viewing Direction`, `thumbnail`)
 7. List of Canvases (`items`, `id`, `type`, `label`), mostly pointing to a IIIF Image API service
 
 ## Mapping Description
+
+Here is a mapping description following the structure (in which order the properties or set of properties appear) of the Manifests created in this repository. It should be noted that IIIF has a different kind of classification, which is: 
+
+- Descriptive Properties
+- Technical Properties
+- Linking Properties
+- Structural Properties
 
 ### Metadata about the IIIF resource
 
@@ -53,4 +60,42 @@
     },
 ```
 
+### Descriptive Metadata about the object
 
+| **Property** | **Content** |
+|--------------|-------------|
+| `metadata`    |       An ordered list of `label` and `values` entries that can be mapped in different languages. The content is not intended to convey semantics, its only goal is to provide some information for presentation.   |
+
+```
+    "metadata": [
+      {
+        "label": {
+          "en": [
+            "Name"
+          ],
+          "de":[
+            "Name"
+          ],
+          "fr":[
+            "Nom"
+          ],
+          "it":[
+            "Nome"
+          ]
+        },
+        "value": {
+          "en": [
+            "Jan Veen"
+          ],
+          "de":[
+            "Jan Veen"
+          ],
+          "fr":[
+            "Jan Veen"
+          ],
+          "it":[
+            "Jan Veen"
+          ]
+        }
+      },
+```

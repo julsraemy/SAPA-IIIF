@@ -14,10 +14,10 @@
 
 | **Property** | **Content** |
 |--------------|-------------|
-| `@context`   |     It has to be  "http://iiif.io/api/presentation/3/context.json"       |
-| `id`         |             |
-| `type`       |             |
-| `label`      |             |
+| `@context`   |     It has to point to the IIIF Presentation API  `"http://iiif.io/api/presentation/3/context.json"`       |
+| `id`         |      URL of the Manifest       |
+| `type`       |      `"Manifest"`       |
+| `label`      |        It can basically be anything, but it is recommended to have something short and textual that can be easily understood by humans. It can be mapped in several languages.     |
 
 ```
     "@context": "http://iiif.io/api/presentation/3/context.json",
@@ -38,3 +38,19 @@
       ]
     }
 ```
+
+### Summary
+
+| **Property** | **Content** |
+|--------------|-------------|
+| `summary`    |       A short textual summary intended to be conveyed to the user when the metadata entries for the resource are not being displayed      |
+
+```
+    "summary": {
+      "en": [
+        "IIIF Manifest of the portrait of Jan Veen"
+      ]
+    },
+```
+
+

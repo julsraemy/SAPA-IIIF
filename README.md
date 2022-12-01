@@ -9,7 +9,7 @@ It contains the following:
 - [1 Collection Template](/collections/) (IIIF Presentation API 3.0)
 - [Activity Streams for the above IIIF resources](/activity/) (IIIF Change Discovery API 1.0)
 
-Temporarily, the following [IIIF Manifest](https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-86-1.json) has been created with a deeper zoom range as a high-resolution image is served. 
+Temporarily, the following [IIIF Manifest](https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-86-1.json) from the Fonds Erismann has been created.
 
 ## Modelling
 

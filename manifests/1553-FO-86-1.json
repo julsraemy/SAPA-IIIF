@@ -191,8 +191,8 @@
         "1553-FO-86-1_PC_001"
       ]
     },
-      "height": 5792,
-      "width": 8688,
+      "height": 5329,
+      "width": 5265,
       "items": [
         {
           "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-86-1/canvas/p1/1",
@@ -206,8 +206,8 @@
                 "id": "https://sipi.participatory-archives.ch/1553-FO-86-1-DC.jp2/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 5792,
-                "width": 8688,
+                "height": 5329,
+                "width": 5265,
                 "service": [
                   {
                     "id": "https://sipi.participatory-archives.ch/1553-FO-86-1-DC.jp2",

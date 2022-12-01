@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-45-1.json",
+  "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-86-1.json",
   "type": "Manifest",
   "label": {
     "none": [
@@ -169,12 +169,12 @@
   ], 
       "thumbnail": [
         {
-          "id": "https://media.performing-arts.ch/iiif/3/image%2F1553-FO-45-1/full/80,/0/default.jpg",
+          "id": "https://media.performing-arts.ch/iiif/3/image%2F1553-FO-86-1/full/80,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "service": [
             {
-              "id": "https://media.performing-arts.ch/iiif/3/image%2F1553-FO-45-1",
+              "id": "https://media.performing-arts.ch/iiif/3/image%2F1553-FO-86-1",
               "type": "ImageService3",
               "profile": "level2"
             }
@@ -184,7 +184,7 @@
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-45-1/canvas/p1",
+      "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-86-1/canvas/p1",
       "type": "Canvas",
       "label": {
       "none": [
@@ -195,28 +195,28 @@
       "width": 8688,
       "items": [
         {
-          "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-45-1/canvas/p1/1",
+          "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-86-1/canvas/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-45-1/p0001-image",
+              "id": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-86-1/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://sipi.participatory-archives.ch/1553-FO-45-1-PC.jp2/full/max/0/default.jpg",
+                "id": "https://sipi.participatory-archives.ch/1553-FO-86-1-DC.jp2/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 5792,
                 "width": 8688,
                 "service": [
                   {
-                    "id": "https://sipi.participatory-archives.ch/1553-FO-45-1-PC.jp2",
+                    "id": "https://sipi.participatory-archives.ch/1553-FO-86-1-DC.jp2",
                     "type": "ImageService3",
                     "profile": "level2"
                   }
                 ]
               },
-              "target": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-45-1/canvas/p1/1"
+              "target": "https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-86-1/canvas/p1/1"
             }
           ]
         }

@@ -169,12 +169,12 @@
   ], 
       "thumbnail": [
         {
-          "id": "https://media.performing-arts.ch/iiif/3/image%2F1553-FO-86-1/full/80,/0/default.jpg",
+          "id": "https://sipi.participatory-archives.ch/1553-FO-86-1-DC.jp2/full/80,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "service": [
             {
-              "id": "https://media.performing-arts.ch/iiif/3/image%2F1553-FO-86-1",
+              "id": "https://sipi.participatory-archives.ch/1553-FO-86-1-DC.jp2",
               "type": "ImageService3",
               "profile": "level2"
             }

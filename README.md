@@ -9,6 +9,8 @@ It contains the following:
 - [1 Collection Template](/collections/) (IIIF Presentation API 3.0)
 - [Activity Streams for the above IIIF resources](/activity/) (IIIF Change Discovery API 1.0)
 
+Temporarily, the following [IIIF Manifest](https://raw.githubusercontent.com/julsraemy/SAPA-IIIF/main/manifests/1553-FO-45-1.json) has been created with a deeper zoom range as a high-resolution image is served. 
+
 ## Modelling
 
 The templates have been created on the basis of the following portraits, all available via the [SAPA Metaphacts instance](https://www.performing-arts.ch/) and the images being served by [Cantaloupe](https://media.performing-arts.ch/iiif/3):
